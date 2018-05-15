@@ -1,0 +1,22 @@
+body {
+  transition: 0.3s cubic-bezier(.45,.05,.55,.95);
+  background-color: #ccc;
+  box-sizing: border-box;
+}
+
+.content {
+	text-align: center;
+	font-family: 'roboto mono', Courier, monospace;
+	color: #ffffff;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	transition: 0.2s all;
+}
+.clock {
+	font-size: 50px;
+}
+.color {
+	font-size: 50px;
+}
